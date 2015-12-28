@@ -1,0 +1,11 @@
+.DS_*
+.idea
+.emacs.desktop
+composer.lock
+
+#Eclipse Project files
+.buildpath
+.project
+
+# Bolt specific stuff. Don't put config files, databases or 'vendor' in Git.
+vendor/

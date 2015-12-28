@@ -1,0 +1,67 @@
+#editcontent .fa-comment-o {
+  cursor: pointer;
+}
+
+#editcontent .fa-comment-o.text-muted {
+  color: #ccc;
+}
+
+.comments-popover {
+  border: 1px solid #ddd;
+  box-shadow: 0 0 10px #ccc;
+  padding: 0;
+  width: 180px !important;
+}
+
+.comments-popover .arrow {
+  top: 50px !important;
+}
+
+.comments-popover.right>.arrow {
+  border-right-color: #ddd;
+}
+
+.comments-popover .text-muted {
+  color: #aaa;
+}
+
+.comments-popover .popover-content {
+  padding: 0;
+}
+
+.comments-popover .popover-comment {
+  padding: 10px 20px;
+}
+
+.comments-popover .popover-comment *[data-delete] {
+  color: #999;
+  cursor: pointer;
+  opacity: 0;
+}
+.comments-popover .popover-comment:hover *[data-delete] {
+  opacity: 0.5;
+}
+
+.comments-popover .popover-comment:hover *[data-delete]:hover {
+  opacity: 1;
+}
+
+.comments-popover .popover-comments {
+  max-height: 0;
+  overflow: hidden;
+  overflow-y: scroll;
+  -webkit-transition: 1s ease-out all;
+          transition: 1s ease-out all;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+}
+
+.comments-popover .popover-comment:nth-child(even) {
+  background: #f4f4f4;
+}
+
+.comments-popover .popover-textarea {
+  border-top: 1px solid #f4f4f4;
+  padding: 10px;
+}
+
