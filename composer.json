@@ -1,5 +1,5 @@
 {
-  "name": "cainc/Commenting",
+  "name": "cainc/commenting",
   "description": "Commenting Feature for Bolt",
   "type": "bolt-extension",
   "require": {
@@ -28,11 +28,7 @@
   "autoload-dev": {
     "files": [
       "init.php"
-    ],
-    "psr-4": {
-      "Bolt\\Extension\\Cainc\\Tests\\": "../_tests-utils",
-      "Bolt\\Tests\\": "../../../../vendor/bolt/bolt/tests/phpunit/unit"
-    }
+    ]
   },
   "extra": {
     "bolt-assets": "assets"
