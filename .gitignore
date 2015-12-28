@@ -1,5 +1,5 @@
 .DS_*
-.idea
+.idea/
 .emacs.desktop
 composer.lock
 
